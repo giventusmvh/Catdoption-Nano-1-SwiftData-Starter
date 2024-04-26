@@ -22,7 +22,7 @@ struct AddNewPetView: View{
     var body: some View{
         Form{
             Section{
-                TextField("Pet Name", text: $petName)
+                TextField("Name your Pet", text: $petName)
                 
                 TextField("Breed", text: $petBreed)
                 
